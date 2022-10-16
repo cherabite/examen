@@ -1,0 +1,44 @@
+
+/***************************************style texte*******************************************/
+
+
+#txt div,b,p,tr,td{
+	line-height: 20px;
+	font-size: 19px;
+	font-family: 'Simplified Arabic';
+	padding: 10px 15px;
+	text-shadow: #000 1px 1px 0px;
+}
+
+#iview-caption-txt{
+
+	width: 1000px;
+	display: block;
+	background: #000;
+	background: rgba(0, 0, 0, 0.7);
+	padding: 5px;
+	border-radius: 5px;
+	position: relative;
+	-webkit-box-shadow: 0 38px 30px -18px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0 38px 30px -18px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 38px 30px -18px rgba(0, 0, 0, 0.5);
+	margin:auto;/*la marge du slider par rapport le nav orizental*/
+	margin-top: 80px;/*la marge du slider par rapport le nav orizental*/
+	margin-bottom: 40px;/*la marge du slider par rapport le nav orizental*/
+}
+
+
+#impression {
+
+	float: left;/*position des boutton de droite a gauche*/
+	background: url(../img/topbar.png) repeat-x;
+    
+ padding: 5px;
+ font-size: 16px;
+ 
+  }
+
+#icon-printer{
+	vertical-align:top;
+}
+

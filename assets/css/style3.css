@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'ae_AlArabiya';
+    src: url('../fonts/ae_AlArabiya.ttf');
+    src: url('../fonts/ae_AlArabiya.eot?') format('embedded-opentype'),
+    
+        url('../fonts/ae_AlArabiya.ttf') format('truetype');
+		}
+		
+
+.atten{
+	font-size: 12px !important;
+}
+
+@media print {
+    body {
+   width:21cm;
+   height:29.7cm;
+   margin:0 auto;
+   padding:0.5cm;
+   box-sizing:border-box;
+			   
+            }
+    a[href]:after {
+               content: none !important;
+                  }
+            }
+
+   .droit{
+	 text-align:right;
+     font-weight: bold;
+    }
+   .cen{ 
+     text-align:center;font-weight: bold;
+	 }
+   .gouche{
+	   text-align:left;font-weight: bold;
+	   }
+ .col{
+	 color:#9900CC;
+	 } 
+.Style1 {font-size: 16px}
+.Style2 {
+	color: #996600;
+	font-weight: bold;
+}
+
+.Style8 {
+	color: #333399;
+	font-size: 18pt;
+}
+.Style9 {color: #63618B}
+.Style11 {
+	color: #000099;
+	font-weight: bold;
+}
+.Style12 {color: #000099}
+.Style14 {color: #000099; font-weight: bold; font-size: 14px; }
+.Style15 {font-size: 14px}
+.Style20 {
+	color: #333399;
+	font-weight: bold;
+}
+.Style25 {color: #63618B; font-weight: bold; }
+.Style29 {
+	font-size: 32px;
+	color: #9900CC;
+}
+.Style30 {color: #9900CC}
+.Style31 {font-size: large; font-weight: bold; }
+.Style21 {color: #04016C}
+.Style7 {font-size: 18px; color: #000092;}
+.Style37 {
+	color: #0000FF;
+	font-size: 18px;
+}
+.Style38 {
+	font-size: large;
+	color: #9900CC;
+	font-weight: bold;
+}
+.Style39 {font-size: 13px}
+.Style40 {font-size: 12px}
+.Style43 {font-size: 24px; color: #9900CC; }
+.Style44 {font-size: 24px}
+.Style47 {font-size: 18px; font-weight: bold; }
+.Style49 {font-size: 20px; font-weight: bold; }
+.Style53 {color: #04016C; font-weight: bold; }
+.Style54 {font-size: 18px}
+.Style55 {font-weight: bold; color: #9900CC;}
+.Style60 {color: #04016C; font-weight: bold; font-size: 24px; }
+.Style61 {color: #04016C; font-weight: bold; font-size: 20px; }
+.Style62 {
+	color: #000000;
+	font-size: 12px;
+}
+.Style63 {color: #333399}
+.Style65 {font-size: 32px}
+.Style66 {font-size: 28px}
+.Style67 {font-size: 23px}
+.Style69 {font-size: 40px}
+.Style70 {color: #FF0000}

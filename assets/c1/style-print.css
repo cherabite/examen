@@ -1,0 +1,54 @@
+/* Modifications : la couleur de fond de page - la police - l'unité utilisée pour la taille de la police  */
+body{
+
+		height: 29.7cm;
+		width: 21cm;
+		color:#666;
+		font: 16px 'Times New Roman';
+		text-align: center;
+		line-height: 20px;
+}
+ img.logo_right {
+	
+	float: right;
+	right: 10%;
+	width: 79px;
+	height: auto;
+	margin:2px;
+}
+#background-image,#impression,#icon-printer,#nav,span,ul{
+ 	display: none;
+}
+#cont{
+
+	width: 20cm;
+	height: 28cm;
+	padding: 5px;
+	
+}
+#txt{
+	text-align: right;	
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+/***************************************style contact*******************************************/
+
+.container-table{	
+
+    border: 1px solid #666;
+}
+.container-table tr,td,th{
+	border: 1px solid #666;
+}
+.container-table h1{
+	text-align: center;
+	font-size: 11pt;
+}
+
+
+ 
+/***************************************style aide-écrit*******************************************/
+.popup{
+	width:400px;
+	height:auto;
+}

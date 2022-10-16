@@ -1,0 +1,240 @@
+* {
+	margin:0 auto;
+	padding: 0px;
+	font-family: 'Ubuntu', Tahoma;
+	line-height: 100%;
+	outline: none;
+}
+
+html {
+	border: 0px;
+}
+
+body {
+	color: #FFF;
+	font-size: 11pt;
+	cursor: default;
+}
+
+
+/* <br clear='all' /> */
+br.ca{
+		clear:both;
+}
+
+div.separator1
+{
+	margin-top:20px;
+ 	margin-right:20px;
+ 	margin-left:20px;
+ 	border-bottom:1px solid #191919;
+ }
+
+div.separator2
+{
+	margin-top:-20px;
+	margin-bottom:40px;
+ 	margin-right:20px;
+ 	margin-left:20px;
+ 	border-bottom:1px solid #474b4c;
+ }
+/* img video*/
+img.thumbnail
+{
+	float:right;
+	margin:0 5px 30px 8px;
+	width:180px;
+	max-height:256px;
+}
+
+
+.clear {
+	clear: both;
+}
+
+a {
+	text-decoration: none;
+	cursor: pointer;
+	color: #d0d9de;
+}
+
+a:hover {
+	color: #FFF;
+}
+/*body*/
+#cont {
+	width: 100%;
+	height: 100%;
+	#overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 70;
+	#overflow: auto;
+	margin:0 auto;
+}
+/*copy right*/
+.copy {
+	width: 70%;
+	text-shadow: #111 1px 1px 0px;
+	text-align: center;
+	padding: 10px 0px;
+	line-height: 150%;
+}
+
+/* ========================================================
+   Top bar -- header --
+   ===================================================== */
+
+/* ========================================================
+   la republic + le logo
+   ===================================================== */
+
+header{
+	background: url(../img/topbar-header.png) repeat-x ;
+	background-size: 150px;
+	border-bottom:1px solid #474b4c;
+	border-bottom:1px solid #191919;
+	width: 100%;
+}
+
+img.logo_right {
+	float: right;
+#	right: 10%;
+#	position: relative;	
+	width: 79px;
+	height: auto;
+}
+
+.rep{	
+	text-shadow: 0 -1px black;
+	text-align: center;
+	padding-left: 150px;
+	padding-top:5px;
+	font-family: 'Tahoma';
+	font-size: 14px;
+	line-height: 20px;
+	color: #eee;
+}
+/* ========================================================
+    fin  -- la republic + le logo --
+   ===================================================== */
+
+/* ========================================================
+   debut -- nav --
+   ===================================================== */
+
+#nav {
+	margin-top: 5px;
+	text-align: center;
+
+}
+#nav li {
+	border-radius: 5px;
+	background: url(../img/topbar-nav.png) repeat-x;
+	position: relative;
+	display: inline-block;
+
+}
+#nav a {
+	line-height: 34px;
+	height: 36px;
+	display: block;
+	padding: 0 10px;
+	color: #d0d9de;
+	#border: 1px solid #191919;
+	border-top: none;
+	border: 1px solid #2f4b56;
+	border: 1px solid rgba(255, 255, 255, 0.05);
+	text-decoration: none;
+	cursor: pointer;
+
+}
+#nav a:hover {
+
+	background: url(../img/topbar-hover.png);
+}
+
+
+/************************************************style nave horisental avec sous menu*******************************************************/
+
+.dropdown-menu > li > a {
+
+	white-space: nowrap;
+}
+.dropdown-menu > li > a.demande {
+	width: 89px;/*taille des boutton unifier*/
+}
+.dropdown-menu > li > a.autres {
+	width: 189px;/*taille des boutton unifier*/
+}
+
+.dropdown > a.help {
+	width: 150px;/*taille des boutton unifier*/
+	text-align: center;
+}
+.dropdown-menu > li > a.aide {
+	width: 150px;/*taille des boutton unifier*/
+}
+.dropdown > a.other {
+	width: 189px;/*taille des boutton unifier*/
+	text-align: center;
+}
+ul#nav > li.dropdown .dropdown-menu {
+	position: absolute;
+	display: block;
+	list-style: none;
+	top: -1000px;		
+	opacity: 0;
+	text-align: center;
+	right: 0px;/*position du sous menu de droite a gauche*/
+}
+ul#nav > li.dropdown .dropdown-menu li.dropdown-submenu {
+	position: relative;
+}
+ul#nav > li.dropdown .dropdown-menu li a {
+	position: relative;
+	text-transform: none;
+}
+ul#nav > li.dropdown .dropdown-menu li.dropdown-submenu > a:after {/*fleche*/
+	border-color: transparent transparent transparent #CCC;/*direction de la flèche vers la droite*/
+	border-style: solid;
+	border-width: 5px 0 5px 5px;
+	content: " ";
+	display: block;
+	float: right;
+	height: 0;
+	width: 0;
+	margin-right: -14px;
+	margin-top: 5px;
+	position: absolute;
+	right: 15px;
+	top: 8px;
+	
+}
+/*effet du sous sous menu*/
+ul#nav > li.dropdown .dropdown-menu li.dropdown-submenu > .dropdown-menu {
+	-webkit-transition: left 0.2s, opacity 0.2s;
+	-moz-transition: left 0.2s, opacity 0.2s;
+	transition: left 0.2s, opacity 0.2s;
+	right: 90%;
+	opacity: 1;
+
+}
+/*sous sous menu*/
+ul#nav > li.dropdown .dropdown-menu li.dropdown-submenu:hover > .dropdown-menu {/*sous-sous-menu*/
+	top: 0;
+	opacity: 1;
+	left: 211px;
+
+}
+/* sous menu */
+ul#nav > li.dropdown:hover > .dropdown-menu {
+	top: auto;
+	display: block;
+	opacity: 1;
+}
+
+/* ========================================================
+   fin -- nav --
+   ===================================================== */

@@ -1,0 +1,988 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+
+
+
+/*********** scolarite01**********/
+$active_group = 'scolarite01';
+$active_record = TRUE;
+ 
+$db['scolarite01']['hostname'] = 'preinscription-bd.onefd.edu.dz';
+$db['scolarite01']['username'] = 'adm_gen_sgbd';
+$db['scolarite01']['password'] = 'bdd2_onefd_1945';
+$db['scolarite01']['database'] = 'scolarite01';
+$db['scolarite01']['dbdriver'] = 'mysqli';
+$db['scolarite01']['dbprefix'] = '';
+$db['scolarite01']['pconnect'] = FALSE;
+$db['scolarite01']['db_debug'] = (ENVIRONMENT == 'production') ;
+$db['scolarite01']['cache_on'] = FALSE;
+$db['scolarite01']['cachedir'] = '';
+$db['scolarite01']['char_set'] = 'latin1';
+$db['scolarite01']['dbcollat'] = 'latin1';
+$db['scolarite01']['swap_pre'] = '';
+$db['scolarite01']['autoinit'] = FALSE;
+$db['scolarite01']['stricton'] = FALSE;
+$db['scolarite01']['save_queries'] = TRUE;
+/***********  preinscription01**********/
+$active_group = 'preinscription01';
+$active_record = TRUE;
+ 
+$db['preinscription01']['hostname'] = 'preinscription-bd.onefd.edu.dz';
+$db['preinscription01']['username'] = 'adm_gen_sgbd';
+$db['preinscription01']['password'] = 'bdd2_onefd_1945';
+$db['preinscription01']['database'] = 'preinscription01';
+$db['preinscription01']['dbdriver'] = 'mysqli';
+$db['preinscription01']['dbprefix'] = '';
+$db['preinscription01']['pconnect'] = FALSE;
+$db['preinscription01']['db_debug'] = (ENVIRONMENT == 'production') ;
+$db['preinscription01']['cache_on'] = FALSE;
+$db['preinscription01']['cachedir'] = '';
+$db['preinscription01']['char_set'] = 'latin1';
+$db['preinscription01']['dbcollat'] = 'latin1';
+$db['preinscription01']['swap_pre'] = '';
+$db['preinscription01']['autoinit'] = FALSE;
+$db['preinscription01']['stricton'] = FALSE;
+$db['preinscription01']['save_queries'] = TRUE;
+/*********** sco 19**********/
+$active_group = 'scolarite19';
+$active_record = TRUE;
+ 
+$db['scolarite19']['hostname'] = 'preinscription-bd.onefd.edu.dz';
+$db['scolarite19']['username'] = 'adm_gen_sgbd';
+$db['scolarite19']['password'] = 'bdd2_onefd_1945';
+$db['scolarite19']['database'] = 'scolarite19';
+$db['scolarite19']['dbdriver'] = 'mysqli';
+$db['scolarite19']['dbprefix'] = '';
+$db['scolarite19']['pconnect'] = FALSE;
+$db['scolarite19']['db_debug'] = (ENVIRONMENT == 'production') ;
+$db['scolarite19']['cache_on'] = FALSE;
+$db['scolarite19']['cachedir'] = '';
+$db['scolarite19']['char_set'] = 'latin1';
+$db['scolarite19']['dbcollat'] = 'latin1';
+$db['scolarite19']['swap_pre'] = '';
+$db['scolarite19']['autoinit'] = FALSE;
+$db['scolarite19']['stricton'] = FALSE;
+$db['scolarite19']['save_queries'] = TRUE;
+/*********** pre 19**********/
+$active_group = 'preinscription19';
+$active_record = TRUE;
+ 
+$db['preinscription19']['hostname'] = 'preinscription-bd.onefd.edu.dz';
+$db['preinscription19']['username'] = 'adm_gen_sgbd';
+$db['preinscription19']['password'] = 'bdd2_onefd_1945';
+$db['preinscription19']['database'] = 'preinscription19';
+$db['preinscription19']['dbdriver'] = 'mysqli';
+$db['preinscription19']['dbprefix'] = '';
+$db['preinscription19']['pconnect'] = FALSE;
+$db['preinscription19']['db_debug'] = (ENVIRONMENT == 'production') ;
+$db['preinscription19']['cache_on'] = FALSE;
+$db['preinscription19']['cachedir'] = '';
+$db['preinscription19']['char_set'] = 'latin1';
+$db['preinscription19']['dbcollat'] = 'latin1';
+$db['preinscription19']['swap_pre'] = '';
+$db['preinscription19']['autoinit'] = FALSE;
+$db['preinscription19']['stricton'] = FALSE;
+$db['preinscription19']['save_queries'] = TRUE;
+/*********** scolarite02**********/
+$active_group = 'scolarite02';
+$active_record = TRUE;
+ 
+$db['scolarite02']['hostname'] = 'preinscription-bd.onefd.edu.dz';
+$db['scolarite02']['username'] = 'adm_gen_sgbd';
+$db['scolarite02']['password'] = 'bdd2_onefd_1945';
+$db['scolarite02']['database'] = 'scolarite02';
+$db['scolarite02']['dbdriver'] = 'mysqli';
+$db['scolarite02']['dbprefix'] = '';
+$db['scolarite02']['pconnect'] = FALSE;
+$db['scolarite02']['db_debug'] = (ENVIRONMENT == 'production') ;
+$db['scolarite02']['cache_on'] = FALSE;
+$db['scolarite02']['cachedir'] = '';
+$db['scolarite02']['char_set'] = 'latin1';
+$db['scolarite02']['dbcollat'] = 'latin1';
+$db['scolarite02']['swap_pre'] = '';
+$db['scolarite02']['autoinit'] = FALSE;
+$db['scolarite02']['stricton'] = FALSE;
+$db['scolarite02']['save_queries'] = TRUE;
+/*********** preinscription02**********/
+$active_group = 'preinscription02';
+$active_record = TRUE;
+ 
+$db['preinscription02']['hostname'] = 'preinscription-bd.onefd.edu.dz';
+$db['preinscription02']['username'] = 'adm_gen_sgbd';
+$db['preinscription02']['password'] = 'bdd2_onefd_1945';
+$db['preinscription02']['database'] = 'preinscription02';
+$db['preinscription02']['dbdriver'] = 'mysqli';
+$db['preinscription02']['dbprefix'] = '';
+$db['preinscription02']['pconnect'] = FALSE;
+$db['preinscription02']['db_debug'] = (ENVIRONMENT == 'production') ;
+$db['preinscription02']['cache_on'] = FALSE;
+$db['preinscription02']['cachedir'] = '';
+$db['preinscription02']['char_set'] = 'latin1';
+$db['preinscription02']['dbcollat'] = 'latin1';
+$db['preinscription02']['swap_pre'] = '';
+$db['preinscription02']['autoinit'] = FALSE;
+$db['preinscription02']['stricton'] = FALSE;
+$db['preinscription02']['save_queries'] = TRUE;
+/*********** scolarite03**********/
+$active_group = 'scolarite03';
+$active_record = TRUE;
+ 
+$db['scolarite03']['hostname'] = 'preinscription-bd.onefd.edu.dz';
+$db['scolarite03']['username'] = 'adm_gen_sgbd';
+$db['scolarite03']['password'] = 'bdd2_onefd_1945';
+$db['scolarite03']['database'] = 'scolarite03';
+$db['scolarite03']['dbdriver'] = 'mysqli';
+$db['scolarite03']['dbprefix'] = '';
+$db['scolarite03']['pconnect'] = FALSE;
+$db['scolarite03']['db_debug'] = (ENVIRONMENT == 'production') ;
+$db['scolarite03']['cache_on'] = FALSE;
+$db['scolarite03']['cachedir'] = '';
+$db['scolarite03']['char_set'] = 'latin1';
+$db['scolarite03']['dbcollat'] = 'latin1';
+$db['scolarite03']['swap_pre'] = '';
+$db['scolarite03']['autoinit'] = FALSE;
+$db['scolarite03']['stricton'] = FALSE;
+$db['scolarite03']['save_queries'] = TRUE;
+/*********** preinscription03**********/
+$active_group = 'preinscription03';
+$active_record = TRUE;
+ 
+$db['preinscription03']['hostname'] = 'preinscription-bd.onefd.edu.dz';
+$db['preinscription03']['username'] = 'adm_gen_sgbd';
+$db['preinscription03']['password'] = 'bdd2_onefd_1945';
+$db['preinscription03']['database'] = 'preinscription03';
+$db['preinscription03']['dbdriver'] = 'mysqli';
+$db['preinscription03']['dbprefix'] = '';
+$db['preinscription03']['pconnect'] = FALSE;
+$db['preinscription03']['db_debug'] = (ENVIRONMENT == 'production') ;
+$db['preinscription03']['cache_on'] = FALSE;
+$db['preinscription03']['cachedir'] = '';
+$db['preinscription03']['char_set'] = 'latin1';
+$db['preinscription03']['dbcollat'] = 'latin1';
+$db['preinscription03']['swap_pre'] = '';
+$db['preinscription03']['autoinit'] = FALSE;
+$db['preinscription03']['stricton'] = FALSE;
+$db['preinscription03']['save_queries'] = TRUE;
+
+/*********** scolarite06**********/
+$active_group = 'scolarite06';
+$active_record = TRUE;
+ 
+$db['scolarite06']['hostname'] = 'preinscription-bd.onefd.edu.dz';
+$db['scolarite06']['username'] = 'adm_gen_sgbd';
+$db['scolarite06']['password'] = 'bdd2_onefd_1945';
+$db['scolarite06']['database'] = 'scolarite06';
+$db['scolarite06']['dbdriver'] = 'mysqli';
+$db['scolarite06']['dbprefix'] = '';
+$db['scolarite06']['pconnect'] = FALSE;
+$db['scolarite06']['db_debug'] = (ENVIRONMENT == 'production') ;
+$db['scolarite06']['cache_on'] = FALSE;
+$db['scolarite06']['cachedir'] = '';
+$db['scolarite06']['char_set'] = 'latin1';
+$db['scolarite06']['dbcollat'] = 'latin1';
+$db['scolarite06']['swap_pre'] = '';
+$db['scolarite06']['autoinit'] = FALSE;
+$db['scolarite06']['stricton'] = FALSE;
+$db['scolarite06']['save_queries'] = TRUE;
+/***********  preinscription06**********/
+$active_group = 'preinscription06';
+$active_record = TRUE;
+ 
+$db['preinscription06']['hostname'] = 'preinscription-bd.onefd.edu.dz';
+$db['preinscription06']['username'] = 'adm_gen_sgbd';
+$db['preinscription06']['password'] = 'bdd2_onefd_1945';
+$db['preinscription06']['database'] = 'preinscription06';
+$db['preinscription06']['dbdriver'] = 'mysqli';
+$db['preinscription06']['dbprefix'] = '';
+$db['preinscription06']['pconnect'] = FALSE;
+$db['preinscription06']['db_debug'] = (ENVIRONMENT == 'production') ;
+$db['preinscription06']['cache_on'] = FALSE;
+$db['preinscription06']['cachedir'] = '';
+$db['preinscription06']['char_set'] = 'latin1';
+$db['preinscription06']['dbcollat'] = 'latin1';
+$db['preinscription06']['swap_pre'] = '';
+$db['preinscription06']['autoinit'] = FALSE;
+$db['preinscription06']['stricton'] = FALSE;
+$db['preinscription06']['save_queries'] = TRUE;
+/*********** scolarite07**********/
+$active_group = 'scolarite07';
+$active_record = TRUE;
+ 
+$db['scolarite07']['hostname'] = 'preinscription-bd.onefd.edu.dz';
+$db['scolarite07']['username'] = 'adm_gen_sgbd';
+$db['scolarite07']['password'] = 'bdd2_onefd_1945';
+$db['scolarite07']['database'] = 'scolarite07';
+$db['scolarite07']['dbdriver'] = 'mysqli';
+$db['scolarite07']['dbprefix'] = '';
+$db['scolarite07']['pconnect'] = FALSE;
+$db['scolarite07']['db_debug'] = (ENVIRONMENT == 'production') ;
+$db['scolarite07']['cache_on'] = FALSE;
+$db['scolarite07']['cachedir'] = '';
+$db['scolarite07']['char_set'] = 'latin1';
+$db['scolarite07']['dbcollat'] = 'latin1';
+$db['scolarite07']['swap_pre'] = '';
+$db['scolarite07']['autoinit'] = FALSE;
+$db['scolarite07']['stricton'] = FALSE;
+$db['scolarite07']['save_queries'] = TRUE;
+/*********** preinscription07**********/
+$active_group = 'preinscription07';
+$active_record = TRUE;
+ 
+$db['preinscription07']['hostname'] = 'preinscription-bd.onefd.edu.dz';
+$db['preinscription07']['username'] = 'adm_gen_sgbd';
+$db['preinscription07']['password'] = 'bdd2_onefd_1945';
+$db['preinscription07']['database'] = 'preinscription07';
+$db['preinscription07']['dbdriver'] = 'mysqli';
+$db['preinscription07']['dbprefix'] = '';
+$db['preinscription07']['pconnect'] = FALSE;
+$db['preinscription07']['db_debug'] = (ENVIRONMENT == 'production') ;
+$db['preinscription07']['cache_on'] = FALSE;
+$db['preinscription07']['cachedir'] = '';
+$db['preinscription07']['char_set'] = 'latin1';
+$db['preinscription07']['dbcollat'] = 'latin1';
+$db['preinscription07']['swap_pre'] = '';
+$db['preinscription07']['autoinit'] = FALSE;
+$db['preinscription07']['stricton'] = FALSE;
+$db['preinscription07']['save_queries'] = TRUE;
+/*********** scolarite08**********/
+$active_group = 'scolarite08';
+$active_record = TRUE;
+ 
+$db['scolarite08']['hostname'] = 'preinscription-bd.onefd.edu.dz';
+$db['scolarite08']['username'] = 'adm_gen_sgbd';
+$db['scolarite08']['password'] = 'bdd2_onefd_1945';
+$db['scolarite08']['database'] = 'scolarite08';
+$db['scolarite08']['dbdriver'] = 'mysqli';
+$db['scolarite08']['dbprefix'] = '';
+$db['scolarite08']['pconnect'] = FALSE;
+$db['scolarite08']['db_debug'] = (ENVIRONMENT == 'production') ;
+$db['scolarite08']['cache_on'] = FALSE;
+$db['scolarite08']['cachedir'] = '';
+$db['scolarite08']['char_set'] = 'latin1';
+$db['scolarite08']['dbcollat'] = 'latin1';
+$db['scolarite08']['swap_pre'] = '';
+$db['scolarite08']['autoinit'] = FALSE;
+$db['scolarite08']['stricton'] = FALSE;
+$db['scolarite08']['save_queries'] = TRUE;
+/*********** preinscription08**********/
+$active_group = 'preinscription08';
+$active_record = TRUE;
+ 
+$db['preinscription08']['hostname'] = 'preinscription-bd.onefd.edu.dz';
+$db['preinscription08']['username'] = 'adm_gen_sgbd';
+$db['preinscription08']['password'] = 'bdd2_onefd_1945';
+$db['preinscription08']['database'] = 'preinscription08';
+$db['preinscription08']['dbdriver'] = 'mysqli';
+$db['preinscription08']['dbprefix'] = '';
+$db['preinscription08']['pconnect'] = FALSE;
+$db['preinscription08']['db_debug'] = (ENVIRONMENT == 'production') ;
+$db['preinscription08']['cache_on'] = FALSE;
+$db['preinscription08']['cachedir'] = '';
+$db['preinscription08']['char_set'] = 'latin1';
+$db['preinscription08']['dbcollat'] = 'latin1';
+$db['preinscription08']['swap_pre'] = '';
+$db['preinscription08']['autoinit'] = FALSE;
+$db['preinscription08']['stricton'] = FALSE;
+$db['preinscription08']['save_queries'] = TRUE;
+/*********** scolarite12**********/
+$active_group = 'scolarite12';
+$active_record = TRUE;
+ 
+$db['scolarite12']['hostname'] = 'preinscription-bd.onefd.edu.dz';
+$db['scolarite03']['username'] = 'adm_gen_sgbd';
+$db['scolarite03']['password'] = 'bdd2_onefd_1945';
+$db['scolarite03']['database'] = 'scolarite03';
+$db['scolarite03']['dbdriver'] = 'mysqli';
+$db['scolarite03']['dbprefix'] = '';
+$db['scolarite03']['pconnect'] = TRUE;
+$db['scolarite03']['db_debug'] = (ENVIRONMENT == 'production') ;
+$db['scolarite03']['cache_on'] = FALSE;
+$db['scolarite03']['cachedir'] = '';
+$db['scolarite03']['char_set'] = 'utf8';
+$db['scolarite03']['dbcollat'] = 'utf8_general_ci';
+$db['scolarite03']['swap_pre'] = '';
+$db['scolarite03']['autoinit'] = TRUE;
+$db['scolarite03']['stricton'] = FALSE;
+$db['scolarite03']['save_queries'] = TRUE;
+/*********** preinscription12**********/
+$active_group = 'preinscription12';
+$active_record = TRUE;
+ 
+$db['preinscription12']['hostname'] = 'preinscription-bd.onefd.edu.dz';
+$db['preinscription12']['username'] = 'adm_gen_sgbd';
+$db['preinscription12']['password'] = 'bdd2_onefd_1945';
+$db['preinscription12']['database'] = 'preinscription12';
+$db['preinscription12']['dbdriver'] = 'mysqli';
+$db['preinscription12']['dbprefix'] = '';
+$db['preinscription12']['pconnect'] = TRUE;
+$db['preinscription12']['db_debug'] = (ENVIRONMENT == 'production') ;
+$db['preinscription12']['cache_on'] = FALSE;
+$db['preinscription12']['cachedir'] = '';
+$db['preinscription12']['char_set'] = 'utf8';
+$db['preinscription12']['dbcollat'] = 'utf8_general_ci';
+$db['preinscription12']['swap_pre'] = '';
+$db['preinscription12']['autoinit'] = TRUE;
+$db['preinscription12']['stricton'] = FALSE;
+$db['preinscription12']['save_queries'] = TRUE;
+/*********** scolarite13**********/
+$active_group = 'scolarite13';
+$active_record = TRUE;
+ 
+$db['scolarite13']['hostname'] = 'preinscription-bd.onefd.edu.dz';
+$db['scolarite13']['username'] = 'adm_gen_sgbd';
+$db['scolarite13']['password'] = 'bdd2_onefd_1945';
+$db['scolarite13']['database'] = 'scolarite13';
+$db['scolarite13']['dbdriver'] = 'mysqli';
+$db['scolarite13']['dbprefix'] = '';
+$db['scolarite13']['pconnect'] = FALSE;
+$db['scolarite13']['db_debug'] = (ENVIRONMENT == 'production') ;
+$db['scolarite13']['cache_on'] = FALSE;
+$db['scolarite13']['cachedir'] = '';
+$db['scolarite13']['char_set'] = 'latin1';
+$db['scolarite13']['dbcollat'] = 'latin1';
+$db['scolarite13']['swap_pre'] = '';
+$db['scolarite13']['autoinit'] = FALSE;
+$db['scolarite13']['stricton'] = FALSE;
+$db['scolarite13']['save_queries'] = TRUE;
+/***********  preinscription13**********/
+$active_group = 'preinscription13';
+$active_record = TRUE;
+ 
+$db['preinscription13']['hostname'] = 'preinscription-bd.onefd.edu.dz';
+$db['preinscription13']['username'] = 'adm_gen_sgbd';
+$db['preinscription13']['password'] = 'bdd2_onefd_1945';
+$db['preinscription13']['database'] = 'preinscription13';
+$db['preinscription13']['dbdriver'] = 'mysqli';
+$db['preinscription13']['dbprefix'] = '';
+$db['preinscription13']['pconnect'] = FALSE;
+$db['preinscription13']['db_debug'] = (ENVIRONMENT == 'production') ;
+$db['preinscription13']['cache_on'] = FALSE;
+$db['preinscription13']['cachedir'] = '';
+$db['preinscription13']['char_set'] = 'latin1';
+$db['preinscription13']['dbcollat'] = 'latin1';
+$db['preinscription13']['swap_pre'] = '';
+$db['preinscription13']['autoinit'] = FALSE;
+$db['preinscription13']['stricton'] = FALSE;
+$db['preinscription13']['save_queries'] = TRUE;
+ 
+/*********** scolarite01**********/
+$active_group = 'scolarite14';
+$active_record = TRUE;
+ 
+$db['scolarite14']['hostname'] = 'preinscription-bd.onefd.edu.dz';
+$db['scolarite14']['username'] = 'adm_gen_sgbd';
+$db['scolarite14']['password'] = 'bdd2_onefd_1945';
+$db['scolarite14']['database'] = 'scolarite14';
+$db['scolarite14']['dbdriver'] = 'mysqli';
+$db['scolarite14']['dbprefix'] = '';
+$db['scolarite14']['pconnect'] = FALSE;
+$db['scolarite14']['db_debug'] = (ENVIRONMENT == 'production') ;
+$db['scolarite14']['cache_on'] = FALSE;
+$db['scolarite14']['cachedir'] = '';
+$db['scolarite14']['char_set'] = 'latin1';
+$db['scolarite14']['dbcollat'] = 'latin1';
+$db['scolarite14']['swap_pre'] = '';
+$db['scolarite14']['autoinit'] = FALSE;
+$db['scolarite14']['stricton'] = FALSE;
+$db['scolarite14']['save_queries'] = TRUE;
+/***********  preinscription13**********/
+$active_group = 'preinscription14';
+$active_record = TRUE;
+ 
+$db['preinscription14']['hostname'] = 'preinscription-bd.onefd.edu.dz';
+$db['preinscription14']['username'] = 'adm_gen_sgbd';
+$db['preinscription14']['password'] = 'bdd2_onefd_1945';
+$db['preinscription14']['database'] = 'preinscription14';
+$db['preinscription14']['dbdriver'] = 'mysqli';
+$db['preinscription14']['dbprefix'] = '';
+$db['preinscription14']['pconnect'] = FALSE;
+$db['preinscription14']['db_debug'] = (ENVIRONMENT == 'production') ;
+$db['preinscription14']['cache_on'] = FALSE;
+$db['preinscription14']['cachedir'] = '';
+$db['preinscription14']['char_set'] = 'latin1';
+$db['preinscription14']['dbcollat'] = 'latin1';
+$db['preinscription14']['swap_pre'] = '';
+$db['preinscription14']['autoinit'] = FALSE;
+$db['preinscription14']['stricton'] = FALSE;
+$db['preinscription14']['save_queries'] = TRUE;
+/*********** scolarite15**********/
+$active_group = 'scolarite15';
+$active_record = TRUE;
+ 
+$db['scolarite15']['hostname'] = 'preinscription-bd.onefd.edu.dz';
+$db['scolarite15']['username'] = 'adm_gen_sgbd';
+$db['scolarite15']['password'] = 'bdd2_onefd_1945';
+$db['scolarite15']['database'] = 'scolarite15';
+$db['scolarite15']['dbdriver'] = 'mysqli';
+$db['scolarite15']['dbprefix'] = '';
+$db['scolarite15']['pconnect'] = FALSE;
+$db['scolarite15']['db_debug'] = (ENVIRONMENT == 'production') ;
+$db['scolarite15']['cache_on'] = FALSE;
+$db['scolarite15']['cachedir'] = '';
+$db['scolarite15']['char_set'] = 'latin1';
+$db['scolarite15']['dbcollat'] = 'latin1';
+$db['scolarite15']['swap_pre'] = '';
+$db['scolarite15']['autoinit'] = FALSE;
+$db['scolarite15']['stricton'] = FALSE;
+$db['scolarite15']['save_queries'] = TRUE;
+/*********** preinscription15**********/
+$active_group = 'preinscription15';
+$active_record = TRUE;
+ 
+$db['preinscription15']['hostname'] = 'preinscription-bd.onefd.edu.dz';
+$db['preinscription15']['username'] = 'adm_gen_sgbd';
+$db['preinscription15']['password'] = 'bdd2_onefd_1945';
+$db['preinscription15']['database'] = 'preinscription15';
+$db['preinscription15']['dbdriver'] = 'mysqli';
+$db['preinscription15']['dbprefix'] = '';
+$db['preinscription15']['pconnect'] = FALSE;
+$db['preinscription15']['db_debug'] = (ENVIRONMENT == 'production') ;
+$db['preinscription15']['cache_on'] = FALSE;
+$db['preinscription15']['cachedir'] = '';
+$db['preinscription15']['char_set'] = 'latin1';
+$db['preinscription15']['dbcollat'] = 'latin1';
+$db['preinscription15']['swap_pre'] = '';
+$db['preinscription15']['autoinit'] = FALSE;
+$db['preinscription15']['stricton'] = FALSE;
+$db['preinscription15']['save_queries'] = TRUE;
+/*********** scolarite16**********/
+$active_group = 'scolarite16';
+$active_record = TRUE;
+ 
+$db['scolarite16']['hostname'] = 'preinscription-bd.onefd.edu.dz';
+$db['scolarite16']['username'] = 'adm_gen_sgbd';
+$db['scolarite16']['password'] = 'bdd2_onefd_1945';
+$db['scolarite16']['database'] = 'scolarite16';
+$db['scolarite16']['dbdriver'] = 'mysqli';
+$db['scolarite16']['dbprefix'] = '';
+$db['scolarite16']['pconnect'] = FALSE;
+$db['scolarite16']['db_debug'] = (ENVIRONMENT == 'production') ;
+$db['scolarite16']['cache_on'] = FALSE;
+$db['scolarite16']['cachedir'] = '';
+$db['scolarite16']['char_set'] = 'latin1';
+$db['scolarite16']['dbcollat'] = 'latin1';
+$db['scolarite16']['swap_pre'] = '';
+$db['scolarite16']['autoinit'] = FALSE;
+$db['scolarite16']['stricton'] = FALSE;
+$db['scolarite16']['save_queries'] = TRUE;
+/*********** preinscription16**********/
+$active_group = 'preinscription16';
+$active_record = TRUE;
+ 
+$db['preinscription16']['hostname'] = 'preinscription-bd.onefd.edu.dz';
+$db['preinscription16']['username'] = 'adm_gen_sgbd';
+$db['preinscription16']['password'] = 'bdd2_onefd_1945';
+$db['preinscription16']['database'] = 'preinscription16';
+$db['preinscription16']['dbdriver'] = 'mysqli';
+$db['preinscription16']['dbprefix'] = '';
+$db['preinscription16']['pconnect'] = FALSE;
+$db['preinscription16']['db_debug'] = (ENVIRONMENT == 'production') ;
+$db['preinscription16']['cache_on'] = FALSE;
+$db['preinscription16']['cachedir'] = '';
+$db['preinscription16']['char_set'] = 'latin1';
+$db['preinscription16']['dbcollat'] = 'latin1';
+$db['preinscription16']['swap_pre'] = '';
+$db['preinscription16']['autoinit'] = FALSE;
+$db['preinscription16']['stricton'] = FALSE;
+$db['preinscription16']['save_queries'] = TRUE;
+/*********** scolarite17**********/
+$active_group = 'scolarite17';
+$active_record = TRUE;
+ 
+$db['scolarite17']['hostname'] = 'preinscription-bd.onefd.edu.dz';
+$db['scolarite17']['username'] = 'adm_gen_sgbd';
+$db['scolarite17']['password'] = 'bdd2_onefd_1945';
+$db['scolarite17']['database'] = 'scolarite17';
+$db['scolarite17']['dbdriver'] = 'mysqli';
+$db['scolarite17']['dbprefix'] = '';
+$db['scolarite17']['pconnect'] = FALSE;
+$db['scolarite17']['db_debug'] = (ENVIRONMENT == 'production') ;
+$db['scolarite17']['cache_on'] = FALSE;
+$db['scolarite17']['cachedir'] = '';
+$db['scolarite17']['char_set'] = 'latin1';
+$db['scolarite17']['dbcollat'] = 'latin1';
+$db['scolarite17']['swap_pre'] = '';
+$db['scolarite17']['autoinit'] = FALSE;
+$db['scolarite17']['stricton'] = FALSE;
+$db['scolarite17']['save_queries'] = TRUE;
+/*********** preinscription17**********/
+$active_group = 'preinscription17';
+$active_record = TRUE;
+ 
+$db['preinscription17']['hostname'] = 'preinscription-bd.onefd.edu.dz';
+$db['preinscription17']['username'] = 'adm_gen_sgbd';
+$db['preinscription17']['password'] = 'bdd2_onefd_1945';
+$db['preinscription17']['database'] = 'preinscription17';
+$db['preinscription17']['dbdriver'] = 'mysqli';
+$db['preinscription17']['dbprefix'] = '';
+$db['preinscription17']['pconnect'] = FALSE;
+$db['preinscription17']['db_debug'] = (ENVIRONMENT == 'production') ;
+$db['preinscription17']['cache_on'] = FALSE;
+$db['preinscription17']['cachedir'] = '';
+$db['preinscription17']['char_set'] = 'latin1';
+$db['preinscription17']['dbcollat'] = 'latin1';
+$db['preinscription17']['swap_pre'] = '';
+$db['preinscription17']['autoinit'] = FALSE;
+$db['preinscription17']['stricton'] = FALSE;
+$db['preinscription17']['save_queries'] = TRUE;
+/*********** scolarite20**********/
+$active_group = 'scolarite20';
+$active_record = TRUE;
+ 
+$db['scolarite20']['hostname'] = 'preinscription-bd.onefd.edu.dz';
+$db['scolarite20']['username'] = 'adm_gen_sgbd';
+$db['scolarite20']['password'] = 'bdd2_onefd_1945';
+$db['scolarite20']['database'] = 'scolarite20';
+$db['scolarite20']['dbdriver'] = 'mysqli';
+$db['scolarite20']['dbprefix'] = '';
+$db['scolarite20']['pconnect'] = FALSE;
+$db['scolarite20']['db_debug'] = (ENVIRONMENT == 'production') ;
+$db['scolarite20']['cache_on'] = FALSE;
+$db['scolarite20']['cachedir'] = '';
+$db['scolarite20']['char_set'] = 'latin1';
+$db['scolarite20']['dbcollat'] = 'latin1';
+$db['scolarite20']['swap_pre'] = '';
+$db['scolarite20']['autoinit'] = FALSE;
+$db['scolarite20']['stricton'] = FALSE;
+$db['scolarite20']['save_queries'] = TRUE;
+/*********** preinscription20**********/
+$active_group = 'preinscription20';
+$active_record = TRUE;
+ 
+$db['preinscription20']['hostname'] = 'preinscription-bd.onefd.edu.dz';
+$db['preinscription20']['username'] = 'adm_gen_sgbd';
+$db['preinscription20']['password'] = 'bdd2_onefd_1945';
+$db['preinscription20']['database'] = 'preinscription20';
+$db['preinscription20']['dbdriver'] = 'mysqli';
+$db['preinscription20']['dbprefix'] = '';
+$db['preinscription20']['pconnect'] = FALSE;
+$db['preinscription20']['db_debug'] = (ENVIRONMENT == 'production') ;
+$db['preinscription20']['cache_on'] = FALSE;
+$db['preinscription20']['cachedir'] = '';
+$db['preinscription20']['char_set'] = 'latin1';
+$db['preinscription20']['dbcollat'] = 'latin1';
+$db['preinscription20']['swap_pre'] = '';
+$db['preinscription20']['autoinit'] = FALSE;
+$db['preinscription20']['stricton'] = FALSE;
+$db['preinscription20']['save_queries'] = TRUE;
+/*********** scolarite21**********/
+$active_group = 'scolarite21';
+$active_record = TRUE;
+ 
+$db['scolarite21']['hostname'] = 'preinscription-bd.onefd.edu.dz';
+$db['scolarite21']['username'] = 'adm_gen_sgbd';
+$db['scolarite21']['password'] = 'bdd2_onefd_1945';
+$db['scolarite21']['database'] = 'scolarite21';
+$db['scolarite21']['dbdriver'] = 'mysqli';
+$db['scolarite21']['dbprefix'] = '';
+$db['scolarite21']['pconnect'] = FALSE;
+$db['scolarite21']['db_debug'] = (ENVIRONMENT == 'production') ;
+$db['scolarite21']['cache_on'] = FALSE;
+$db['scolarite21']['cachedir'] = '';
+$db['scolarite21']['char_set'] = 'latin1';
+$db['scolarite21']['dbcollat'] = 'latin1';
+$db['scolarite21']['swap_pre'] = '';
+$db['scolarite21']['autoinit'] = FALSE;
+$db['scolarite21']['stricton'] = FALSE;
+$db['scolarite21']['save_queries'] = TRUE;
+/*********** preinscription21**********/
+$active_group = 'preinscription21';
+$active_record = TRUE;
+ 
+$db['preinscription21']['hostname'] = 'preinscription-bd.onefd.edu.dz';
+$db['preinscription21']['username'] = 'adm_gen_sgbd';
+$db['preinscription21']['password'] = 'bdd2_onefd_1945';
+$db['preinscription21']['database'] = 'preinscription21';
+$db['preinscription21']['dbdriver'] = 'mysqli';
+$db['preinscription21']['dbprefix'] = '';
+$db['preinscription21']['pconnect'] = FALSE;
+$db['preinscription21']['db_debug'] = (ENVIRONMENT == 'production') ;
+$db['preinscription21']['cache_on'] = FALSE;
+$db['preinscription21']['cachedir'] = '';
+$db['preinscription21']['char_set'] = 'latin1';
+$db['preinscription21']['dbcollat'] = 'latin1';
+$db['preinscription21']['swap_pre'] = '';
+$db['preinscription21']['autoinit'] = FALSE;
+$db['preinscription21']['stricton'] = FALSE;
+$db['preinscription21']['save_queries'] = TRUE;
+/*********** scolarite23**********/
+$active_group = 'scolarite23';
+$active_record = TRUE;
+ 
+$db['scolarite23']['hostname'] = 'preinscription-bd.onefd.edu.dz';
+$db['scolarite23']['username'] = 'adm_gen_sgbd';
+$db['scolarite23']['password'] = 'bdd2_onefd_1945';
+$db['scolarite23']['database'] = 'scolarite23';
+$db['scolarite23']['dbdriver'] = 'mysqli';
+$db['scolarite23']['dbprefix'] = '';
+$db['scolarite23']['pconnect'] = FALSE;
+$db['scolarite23']['db_debug'] = (ENVIRONMENT == 'production') ;
+$db['scolarite23']['cache_on'] = FALSE;
+$db['scolarite23']['cachedir'] = '';
+$db['scolarite23']['char_set'] = 'latin1';
+$db['scolarite23']['dbcollat'] = 'latin1';
+$db['scolarite23']['swap_pre'] = '';
+$db['scolarite23']['autoinit'] = FALSE;
+$db['scolarite23']['stricton'] = FALSE;
+$db['scolarite23']['save_queries'] = TRUE;
+/*********** preinscription23**********/
+$active_group = 'preinscription23';
+$active_record = TRUE;
+ 
+$db['preinscription23']['hostname'] = 'preinscription-bd.onefd.edu.dz';
+$db['preinscription23']['username'] = 'adm_gen_sgbd';
+$db['preinscription23']['password'] = 'bdd2_onefd_1945';
+$db['preinscription23']['database'] = 'preinscription23';
+$db['preinscription23']['dbdriver'] = 'mysqli';
+$db['preinscription23']['dbprefix'] = '';
+$db['preinscription23']['pconnect'] = FALSE;
+$db['preinscription23']['db_debug'] = (ENVIRONMENT == 'production') ;
+$db['preinscription23']['cache_on'] = FALSE;
+$db['preinscription23']['cachedir'] = '';
+$db['preinscription23']['char_set'] = 'latin1';
+$db['preinscription23']['dbcollat'] = 'latin1';
+$db['preinscription23']['swap_pre'] = '';
+$db['preinscription23']['autoinit'] = FALSE;
+$db['preinscription23']['stricton'] = FALSE;
+$db['preinscription23']['save_queries'] = TRUE;
+/*********** scolarite25**********/
+$active_group = 'scolarite25';
+$active_record = TRUE;
+ 
+$db['scolarite25']['hostname'] = 'preinscription-bd.onefd.edu.dz';
+$db['scolarite25']['username'] = 'adm_gen_sgbd';
+$db['scolarite25']['password'] = 'bdd2_onefd_1945';
+$db['scolarite25']['database'] = 'scolarite25';
+$db['scolarite25']['dbdriver'] = 'mysqli';
+$db['scolarite25']['dbprefix'] = '';
+$db['scolarite25']['pconnect'] = FALSE;
+$db['scolarite25']['db_debug'] = (ENVIRONMENT == 'production') ;
+$db['scolarite25']['cache_on'] = FALSE;
+$db['scolarite25']['cachedir'] = '';
+$db['scolarite25']['char_set'] = 'latin1';
+$db['scolarite25']['dbcollat'] = 'latin1';
+$db['scolarite25']['swap_pre'] = '';
+$db['scolarite25']['autoinit'] = FALSE;
+$db['scolarite25']['stricton'] = FALSE;
+$db['scolarite25']['save_queries'] = TRUE;
+/*********** preinscription25**********/
+$active_group = 'preinscription25';
+$active_record = TRUE;
+ 
+$db['preinscription25']['hostname'] = 'preinscription-bd.onefd.edu.dz';
+$db['preinscription25']['username'] = 'adm_gen_sgbd';
+$db['preinscription25']['password'] = 'bdd2_onefd_1945';
+$db['preinscription25']['database'] = 'preinscription25';
+$db['preinscription25']['dbdriver'] = 'mysqli';
+$db['preinscription25']['dbprefix'] = '';
+$db['preinscription25']['pconnect'] = FALSE;
+$db['preinscription25']['db_debug'] = (ENVIRONMENT == 'production') ;
+$db['preinscription25']['cache_on'] = FALSE;
+$db['preinscription25']['cachedir'] = '';
+$db['preinscription25']['char_set'] = 'latin1';
+$db['preinscription25']['dbcollat'] = 'latin1';
+$db['preinscription25']['swap_pre'] = '';
+$db['preinscription25']['autoinit'] = FALSE;
+$db['preinscription25']['stricton'] = FALSE;
+$db['preinscription25']['save_queries'] = TRUE;
+/*********** scolarite26**********/
+$active_group = 'scolarite26';
+$active_record = TRUE;
+ 
+$db['scolarite26']['hostname'] = 'preinscription-bd.onefd.edu.dz';
+$db['scolarite26']['username'] = 'adm_gen_sgbd';
+$db['scolarite26']['password'] = 'bdd2_onefd_1945';
+$db['scolarite26']['database'] = 'scolarite26';
+$db['scolarite26']['dbdriver'] = 'mysqli';
+$db['scolarite26']['dbprefix'] = '';
+$db['scolarite26']['pconnect'] = FALSE;
+$db['scolarite26']['db_debug'] = (ENVIRONMENT == 'production') ;
+$db['scolarite26']['cache_on'] = FALSE;
+$db['scolarite26']['cachedir'] = '';
+$db['scolarite26']['char_set'] = 'latin1';
+$db['scolarite26']['dbcollat'] = 'latin1';
+$db['scolarite26']['swap_pre'] = '';
+$db['scolarite26']['autoinit'] = FALSE;
+$db['scolarite26']['stricton'] = FALSE;
+$db['scolarite26']['save_queries'] = TRUE;
+/*********** preinscription26**********/
+$active_group = 'preinscription26';
+$active_record = TRUE;
+ 
+$db['preinscription26']['hostname'] = 'preinscription-bd.onefd.edu.dz';
+$db['preinscription26']['username'] = 'adm_gen_sgbd';
+$db['preinscription26']['password'] = 'bdd2_onefd_1945';
+$db['preinscription26']['database'] = 'preinscription26';
+$db['preinscription26']['dbdriver'] = 'mysqli';
+$db['preinscription26']['dbprefix'] = '';
+$db['preinscription26']['pconnect'] = FALSE;
+$db['preinscription26']['db_debug'] = (ENVIRONMENT == 'production') ;
+$db['preinscription26']['cache_on'] = FALSE;
+$db['preinscription26']['cachedir'] = '';
+$db['preinscription26']['char_set'] = 'latin1';
+$db['preinscription26']['dbcollat'] = 'latin1';
+$db['preinscription26']['swap_pre'] = '';
+$db['preinscription26']['autoinit'] = FALSE;
+$db['preinscription26']['stricton'] = FALSE;
+$db['preinscription26']['save_queries'] = TRUE;
+/*********** scolarite27**********/
+$active_group = 'scolarite27';
+$active_record = TRUE;
+ 
+$db['scolarite27']['hostname'] = 'preinscription-bd.onefd.edu.dz';
+$db['scolarite27']['username'] = 'adm_gen_sgbd';
+$db['scolarite27']['password'] = 'bdd2_onefd_1945';
+$db['scolarite27']['database'] = 'scolarite27';
+$db['scolarite27']['dbdriver'] = 'mysqli';
+$db['scolarite27']['dbprefix'] = '';
+$db['scolarite27']['pconnect'] = FALSE;
+$db['scolarite27']['db_debug'] = (ENVIRONMENT == 'production') ;
+$db['scolarite27']['cache_on'] = FALSE;
+$db['scolarite27']['cachedir'] = '';
+$db['scolarite27']['char_set'] = 'latin1';
+$db['scolarite27']['dbcollat'] = 'latin1';
+$db['scolarite27']['swap_pre'] = '';
+$db['scolarite27']['autoinit'] = FALSE;
+$db['scolarite27']['stricton'] = FALSE;
+$db['scolarite27']['save_queries'] = TRUE;
+/*********** preinscription27**********/
+$active_group = 'preinscription27';
+$active_record = TRUE;
+ 
+$db['preinscription27']['hostname'] = 'preinscription-bd.onefd.edu.dz';
+$db['preinscription27']['username'] = 'adm_gen_sgbd';
+$db['preinscription27']['password'] = 'bdd2_onefd_1945';
+$db['preinscription27']['database'] = 'preinscription27';
+$db['preinscription27']['dbdriver'] = 'mysqli';
+$db['preinscription27']['dbprefix'] = '';
+$db['preinscription27']['pconnect'] = FALSE;
+$db['preinscription27']['db_debug'] = (ENVIRONMENT == 'production') ;
+$db['preinscription27']['cache_on'] = FALSE;
+$db['preinscription27']['cachedir'] = '';
+$db['preinscription27']['char_set'] = 'latin1';
+$db['preinscription27']['dbcollat'] = 'latin1';
+$db['preinscription27']['swap_pre'] = '';
+$db['preinscription27']['autoinit'] = FALSE;
+$db['preinscription27']['stricton'] = FALSE;
+$db['preinscription27']['save_queries'] = TRUE;
+/*********** scolarite30**********/
+$active_group = 'scolarite30';
+$active_record = TRUE;
+ 
+$db['scolarite30']['hostname'] = 'preinscription-bd.onefd.edu.dz';
+$db['scolarite30']['username'] = 'adm_gen_sgbd';
+$db['scolarite30']['password'] = 'bdd2_onefd_1945';
+$db['scolarite30']['database'] = 'scolarite30';
+$db['scolarite30']['dbdriver'] = 'mysqli';
+$db['scolarite30']['dbprefix'] = '';
+$db['scolarite30']['pconnect'] = FALSE;
+$db['scolarite30']['db_debug'] = (ENVIRONMENT == 'production') ;
+$db['scolarite30']['cache_on'] = FALSE;
+$db['scolarite30']['cachedir'] = '';
+$db['scolarite30']['char_set'] = 'latin1';
+$db['scolarite30']['dbcollat'] = 'latin1';
+$db['scolarite30']['swap_pre'] = '';
+$db['scolarite30']['autoinit'] = FALSE;
+$db['scolarite30']['stricton'] = FALSE;
+$db['scolarite30']['save_queries'] = TRUE;
+/*********** preinscription30**********/
+$active_group = 'preinscription30';
+$active_record = TRUE;
+ 
+$db['preinscription30']['hostname'] = 'preinscription-bd.onefd.edu.dz';
+$db['preinscription30']['username'] = 'adm_gen_sgbd';
+$db['preinscription30']['password'] = 'bdd2_onefd_1945';
+$db['preinscription30']['database'] = 'preinscription30';
+$db['preinscription30']['dbdriver'] = 'mysqli';
+$db['preinscription30']['dbprefix'] = '';
+$db['preinscription30']['pconnect'] = FALSE;
+$db['preinscription30']['db_debug'] = (ENVIRONMENT == 'production') ;
+$db['preinscription30']['cache_on'] = FALSE;
+$db['preinscription30']['cachedir'] = '';
+$db['preinscription30']['char_set'] = 'latin1';
+$db['preinscription30']['dbcollat'] = 'latin1';
+$db['preinscription30']['swap_pre'] = '';
+$db['preinscription30']['autoinit'] = FALSE;
+$db['preinscription30']['stricton'] = FALSE;
+$db['preinscription30']['save_queries'] = TRUE;
+/*********** scolarite31**********/
+$active_group = 'scolarite31';
+$active_record = TRUE;
+ 
+$db['scolarite31']['hostname'] = 'preinscription-bd.onefd.edu.dz';
+$db['scolarite31']['username'] = 'adm_gen_sgbd';
+$db['scolarite31']['password'] = 'bdd2_onefd_1945';
+$db['scolarite31']['database'] = 'scolarite31';
+$db['scolarite31']['dbdriver'] = 'mysqli';
+$db['scolarite31']['dbprefix'] = '';
+$db['scolarite31']['pconnect'] = FALSE;
+$db['scolarite31']['db_debug'] = (ENVIRONMENT == 'production') ;
+$db['scolarite31']['cache_on'] = FALSE;
+$db['scolarite31']['cachedir'] = '';
+$db['scolarite31']['char_set'] = 'latin1';
+$db['scolarite31']['dbcollat'] = 'latin1';
+$db['scolarite31']['swap_pre'] = '';
+$db['scolarite31']['autoinit'] = FALSE;
+$db['scolarite31']['stricton'] = FALSE;
+$db['scolarite31']['save_queries'] = TRUE;
+/*********** preinscription31**********/
+$active_group = 'preinscription31';
+$active_record = TRUE;
+ 
+$db['preinscription31']['hostname'] = 'preinscription-bd.onefd.edu.dz';
+$db['preinscription31']['username'] = 'adm_gen_sgbd';
+$db['preinscription31']['password'] = 'bdd2_onefd_1945';
+$db['preinscription31']['database'] = 'preinscription31';
+$db['preinscription31']['dbdriver'] = 'mysqli';
+$db['preinscription31']['dbprefix'] = '';
+$db['preinscription31']['pconnect'] = FALSE;
+$db['preinscription31']['db_debug'] = (ENVIRONMENT == 'production') ;
+$db['preinscription31']['cache_on'] = FALSE;
+$db['preinscription31']['cachedir'] = '';
+$db['preinscription31']['char_set'] = 'latin1';
+$db['preinscription31']['dbcollat'] = 'latin1';
+$db['preinscription31']['swap_pre'] = '';
+$db['preinscription31']['autoinit'] = FALSE;
+$db['preinscription31']['stricton'] = FALSE;
+$db['preinscription31']['save_queries'] = TRUE;
+
+/*********** scolarite39**********/
+$active_group = 'scolarite39';
+$active_record = TRUE;
+ 
+$db['scolarite39']['hostname'] = 'preinscription-bd.onefd.edu.dz';
+$db['scolarite39']['username'] = 'adm_gen_sgbd';
+$db['scolarite39']['password'] = 'bdd2_onefd_1945';
+$db['scolarite39']['database'] = 'scolarite39';
+$db['scolarite39']['dbdriver'] = 'mysqli';
+$db['scolarite39']['dbprefix'] = '';
+$db['scolarite39']['pconnect'] = FALSE;
+$db['scolarite39']['db_debug'] = (ENVIRONMENT == 'production') ;
+$db['scolarite39']['cache_on'] = FALSE;
+$db['scolarite39']['cachedir'] = '';
+$db['scolarite39']['char_set'] = 'latin1';
+$db['scolarite39']['dbcollat'] = 'latin1';
+$db['scolarite39']['swap_pre'] = '';
+$db['scolarite39']['autoinit'] = FALSE;
+$db['scolarite39']['stricton'] = FALSE;
+$db['scolarite39']['save_queries'] = TRUE;
+/*********** preinscription39**********/
+$active_group = 'preinscription39';
+$active_record = TRUE;
+ 
+$db['preinscription39']['hostname'] = 'preinscription-bd.onefd.edu.dz';
+$db['preinscription39']['username'] = 'adm_gen_sgbd';
+$db['preinscription39']['password'] = 'bdd2_onefd_1945';
+$db['preinscription39']['database'] = 'preinscription39';
+$db['preinscription39']['dbdriver'] = 'mysqli';
+$db['preinscription39']['dbprefix'] = '';
+$db['preinscription39']['pconnect'] = FALSE;
+$db['preinscription39']['db_debug'] = (ENVIRONMENT == 'production') ;
+$db['preinscription39']['cache_on'] = FALSE;
+$db['preinscription39']['cachedir'] = '';
+$db['preinscription39']['char_set'] = 'latin1';
+$db['preinscription39']['dbcollat'] = 'latin1';
+$db['preinscription39']['swap_pre'] = '';
+$db['preinscription39']['autoinit'] = FALSE;
+$db['preinscription39']['stricton'] = FALSE;
+$db['preinscription39']['save_queries'] = TRUE;
+/*********** scolarite41**********/
+$active_group = 'scolarite41';
+$active_record = TRUE;
+ 
+$db['scolarite41']['hostname'] = 'preinscription-bd.onefd.edu.dz';
+$db['scolarite41']['username'] = 'adm_gen_sgbd';
+$db['scolarite41']['password'] = 'bdd2_onefd_1945';
+$db['scolarite41']['database'] = 'scolarite41';
+$db['scolarite41']['dbdriver'] = 'mysqli';
+$db['scolarite41']['dbprefix'] = '';
+$db['scolarite41']['pconnect'] = FALSE;
+$db['scolarite41']['db_debug'] = (ENVIRONMENT == 'production') ;
+$db['scolarite41']['cache_on'] = FALSE;
+$db['scolarite41']['cachedir'] = '';
+$db['scolarite41']['char_set'] = 'latin1';
+$db['scolarite41']['dbcollat'] = 'latin1';
+$db['scolarite41']['swap_pre'] = '';
+$db['scolarite41']['autoinit'] = FALSE;
+$db['scolarite41']['stricton'] = FALSE;
+$db['scolarite41']['save_queries'] = TRUE;
+/*********** preinscription41**********/
+$active_group = 'preinscription41';
+$active_record = TRUE;
+ 
+$db['preinscription41']['hostname'] = 'preinscription-bd.onefd.edu.dz';
+$db['preinscription41']['username'] = 'adm_gen_sgbd';
+$db['preinscription41']['password'] = 'bdd2_onefd_1945';
+$db['preinscription41']['database'] = 'preinscription41';
+$db['preinscription41']['dbdriver'] = 'mysqli';
+$db['preinscription41']['dbprefix'] = '';
+$db['preinscription41']['pconnect'] = FALSE;
+$db['preinscription41']['db_debug'] = (ENVIRONMENT == 'production') ;
+$db['preinscription41']['cache_on'] = FALSE;
+$db['preinscription41']['cachedir'] = '';
+$db['preinscription41']['char_set'] = 'latin1';
+$db['preinscription41']['dbcollat'] = 'latin1';
+$db['preinscription41']['swap_pre'] = '';
+$db['preinscription41']['autoinit'] = FALSE;
+$db['preinscription41']['stricton'] = FALSE;
+$db['preinscription41']['save_queries'] = TRUE;
+/*********** base helper**********/
+$active_group = 'default';
+$active_record = TRUE;
+ 
+$db['default']['hostname'] = 'preinscription-bd.onefd.edu.dz';
+$db['default']['username'] = 'adm_gen_sgbd';
+$db['default']['password'] = 'bdd2_onefd_1945';
+$db['default']['database'] = 'base_helper';
+$db['default']['dbdriver'] = 'mysqli';
+$db['default']['dbprefix'] = '';
+$db['default']['pconnect'] = FALSE;
+$db['default']['db_debug'] = (ENVIRONMENT == 'production') ;
+$db['default']['cache_on'] = FALSE;
+$db['default']['cachedir'] = '';
+$db['default']['char_set'] = 'latin1';
+$db['default']['dbcollat'] = 'latin1';
+$db['default']['swap_pre'] = '';
+$db['default']['autoinit'] = FALSE;
+$db['default']['stricton'] = FALSE;
+$db['default']['save_queries'] = TRUE;
+/*********** scolarite44**********/
+$active_group = 'scolarite44';
+$active_record = TRUE;
+ 
+$db['scolarite44']['hostname'] = 'preinscription-bd.onefd.edu.dz';
+$db['scolarite44']['username'] = 'adm_gen_sgbd';
+$db['scolarite44']['password'] = 'bdd2_onefd_1945';
+$db['scolarite44']['database'] = 'scolarite44';
+$db['scolarite44']['dbdriver'] = 'mysqli';
+$db['scolarite44']['dbprefix'] = '';
+$db['scolarite44']['pconnect'] = FALSE;
+$db['scolarite44']['db_debug'] = (ENVIRONMENT == 'production') ;
+$db['scolarite44']['cache_on'] = FALSE;
+$db['scolarite44']['cachedir'] = '';
+$db['scolarite44']['char_set'] = 'latin1';
+$db['scolarite44']['dbcollat'] = 'latin1';
+$db['scolarite44']['swap_pre'] = '';
+$db['scolarite44']['autoinit'] = FALSE;
+$db['scolarite44']['stricton'] = FALSE;
+$db['scolarite44']['save_queries'] = TRUE;
+/*********** preinscription44**********/
+$active_group = 'preinscription44';
+$active_record = TRUE;
+ 
+$db['preinscription44']['hostname'] = 'preinscription-bd.onefd.edu.dz';
+$db['preinscription44']['username'] = 'adm_gen_sgbd';
+$db['preinscription44']['password'] = 'bdd2_onefd_1945';
+$db['preinscription44']['database'] = 'preinscription44';
+$db['preinscription44']['dbdriver'] = 'mysqli';
+$db['preinscription44']['dbprefix'] = '';
+$db['preinscription44']['pconnect'] = FALSE;
+$db['preinscription44']['db_debug'] = (ENVIRONMENT == 'production') ;
+$db['preinscription44']['cache_on'] = FALSE;
+$db['preinscription44']['cachedir'] = '';
+$db['preinscription44']['char_set'] = 'latin1';
+$db['preinscription44']['dbcollat'] = 'latin1';
+$db['preinscription44']['swap_pre'] = '';
+$db['preinscription44']['autoinit'] = FALSE;
+$db['preinscription44']['stricton'] = FALSE;
+$db['preinscription44']['save_queries'] = TRUE;

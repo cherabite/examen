@@ -1,0 +1,77 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>جدول التصحيح</title>
+<style type="text/css">
+ table{
+                    width:100%;
+                    hieght:50%;
+                    border: 2px solid black;
+                    text-align: center;
+                    margin: 0cm;0cm;0cm;0cm;
+                    border-collapse: collapse;}
+                td {
+                    font-size: 13px;
+                    border: 1px solid black;
+                    white-space: nowrap; overflow: hidden;
+                    text-overflow: clip;
+
+                }		
+.Style8 {font-size: 22px; font-weight: bold; }
+.Style14 {
+	font-size: 18px;
+	font-weight: bold;
+}
+.Style15 {font-size: 18px}
+.Style16 {
+	font-size: 24px;
+	font-weight: bold;
+}
+.Style22 {font-size: 16px}
+.Style28 {font-size: 14px}
+.Style31 {font-size: 13px}
+.Style33 {font-size: 15px}
+.Style34 {font-size: 15px; font-weight: bold; }
+.style35 {font-size: 10px; }
+.style36 {font-size: 12px}
+.style37 {font-size: 12px; font-weight: bold; }
+.style40 {font-size: 10px; color: 12; }
+.style41 {font-size: 13px; color: 12; }
+.style42 {font-size: 15px; font-weight: bold; color: 12; }
+.style43 {color: 12}
+table{
+	border-collapse:collapse;
+	empty-cells:show;
+}
+td{
+	position:relative;
+	}
+tr.strikeout td:before{
+	content : " ";
+	position: absolute;
+	top: 50%;
+	left:0 ;
+	-webkit-text-decoration-style: wavy;
+  text-decoration-style: wavy;
+	width : 100%;
+}
+tr.strikeout td:after{
+	content : "\00B7";
+	font-size: 2px;
+	-webkit-text-decoration-style: wavy;
+  text-decoration-style: wavy;
+	  
+}
+
+
+</style>
+</head>
+<body>
+
+
+<?php 
+
+echo $info;
+  ?>
+</body>
+</html>
